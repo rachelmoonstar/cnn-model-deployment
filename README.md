@@ -1,6 +1,8 @@
 # MLOps: CNN Model Deployment
 
-The model API is currently deployed on: https://rachel-model-api-7w6n2246cq-uk.a.run.app/. To check out Swagger UI and test out model predictions with images, visit: https://rachel-model-api-7w6n2246cq-uk.a.run.app/docs.
+The model API is currently deployed on: https://rachel-model-api-7w6n2246cq-uk.a.run.app/. 
+
+To check out Swagger UI and test out model predictions with images, visit: https://rachel-model-api-7w6n2246cq-uk.a.run.app/docs.
 
 
 ## ML Model
