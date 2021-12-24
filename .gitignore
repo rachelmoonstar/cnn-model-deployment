@@ -1,3 +1,6 @@
+# Custom
+cifar100-cnn-model.h5
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
