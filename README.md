@@ -32,13 +32,9 @@ The model's predictions are served as an API with FastAPI framework, in `main.py
 
 ### 2. How to deploy Docker container to GCP
 
-1. First we need to build our Docker container image using Cloud Build and register to GCR.
- 
-In the local terminal, navigate to the app directory and run: `gcloud builds submit --tag gcr.io/<PROJECT_ID>/<container-name>`
+1. First we need to build our Docker container image using Cloud Build and register to GCR. In the local terminal, navigate to the app directory and run: `gcloud builds submit --tag gcr.io/<PROJECT_ID>/<container-name>`
 
-2. Let's now deploy the Docker container image on the cloud. 
-
-3. Run: `gcloud run deploy --image gcr.io/<PROJECT-ID>/<container-name> --platform managed`. 
+2. Let's now deploy the Docker container image on the cloud. Run: `gcloud run deploy --image gcr.io/<PROJECT-ID>/<container-name> --platform managed`. 
 You will then be prompted to enter service name, region, and allow for unauthentications invocations. Press `y` to allow public access to the URL. You will get a URL to your ML application running on the cloud!
 
 
